@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Makeup Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff0f5;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #c71585;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.03);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+        .product p {
+            color: #666;
+            font-size: 14px;
+        }
+        .price {
+            color: #d63384;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Featured Makeup Products</h1>
+
+<div class="product-grid">
+    <div class="product">
+        <img src="https://example.com/images/lipstick.jpg" alt="Lipstick">
+        <h2>Velvet Matte Lipstick</h2>
+        <p>Long-lasting color with a creamy matte finish.</p>
+        <div class="price">$12.99</div>
+    </div>
+
+    <div class="product">
+        <img src="https://example.com/images/foundation.jpg" alt="Foundation">
+        <h2>Flawless Liquid Foundation</h2>
+        <p>Lightweight, buildable coverage for all skin types.</p>
+        <div class="price">$24.50</div>
+    </div>
+
+    <div class="product">
+        <img src="https://example.com/images/eyeshadow.jpg" alt="Eyeshadow Palette">
+        <h2>10-Color Eyeshadow Palette</h2>
+        <p>Neutral to bold shades for every look.</p>
+        <div class="price">$18.75</div>
+    </div>
+
+    <div class="product">
+        <img src="https://example.com/images/mascara.jpg" alt="Mascara">
+        <h2>Volume Boost Mascara</h2>
+        <p>Lengthens and thickens lashes without clumps.</p>
+        <div class="price">$9.99</div>
+    </div>
+</div>
+
+</body>
+</html>
+
